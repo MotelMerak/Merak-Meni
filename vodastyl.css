@@ -179,3 +179,35 @@ span{
     text-shadow: 5px 5px 5px black;  
     box-shadow: 0 0 12px rgba(113, 127, 145, 0.3);
 }
+.item-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 14px 20px;
+    margin: 8px 12px;
+    
+
+    background: linear-gradient(
+        135deg,
+        rgba(255,255,255,0.09),
+        rgba(255,255,255,0.02)
+    );
+
+    border: 1px solid rgba(49, 49, 48, 0.35);
+    border-radius: 12px;
+
+    color: #f5e6bd;
+    font-size: 48px;
+    letter-spacing: 1px;
+
+    box-shadow: 0 4px 15px rgba(153, 33, 33, 0.25);
+    transition: all 0.3s ease;
+}
+
+.item-name:hover {
+    border-color: #424242;
+    background: rgba(73, 73, 73, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(54, 54, 54, 0.15);
+}
