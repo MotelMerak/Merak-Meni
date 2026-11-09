@@ -39,6 +39,9 @@ address{
     
 
 }
+#h1{
+    text-align: center;
+}
 #h2{
     color: white;
     font-size: 350%;
@@ -156,11 +159,11 @@ a:hover{
 }
 .del{
     margin-left: 4%;
-    margin-right: 50%;
+    margin-right: 40%;
     margin-top: 6%;
     padding-top: 1%;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(128, 124, 124);
     border-radius: 0%;
     border-width: 0.5px;
 }
