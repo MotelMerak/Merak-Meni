@@ -41,7 +41,7 @@ address{
 }
 #h2{
     color: white;
-    font-size: 250%;
+    font-size: 350%;
     position: relative;
     text-align: left;
 
@@ -49,21 +49,36 @@ address{
     margin-bottom:30px;
     letter-spacing:3px;
     text-shadow: 5px 5px 5px black;
+
+    padding-left: 2%;
     
 }
 #h3{
-    color: white;
+    color: rgb(97, 97, 97);
+    font-size: 240%;
+    position: relative;
+    text-align: left;
+
+    margin-top:40px;
+    margin-bottom:30px;
+    letter-spacing:3px;
+    text-shadow: 5px 5px 5px black;
+
+    padding-left: 5%;
+    
+}
+#h4{
+    color: rgb(78, 37, 37);
     font-size: 200%;
     position: relative;
     text-align: left;
 
-    margin-top:40px;
+    margin-top:10px;
     margin-bottom:30px;
     letter-spacing:3px;
     text-shadow: 5px 5px 5px black;
     
 }
-
 
 
 
@@ -138,4 +153,23 @@ a{
 }
 a:hover{
     color:rgb(85, 83, 83);
+}
+.del{
+    margin-left: 4%;
+    margin-right: 50%;
+    margin-top: 6%;
+    padding-top: 1%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0%;
+    border-width: 0.5px;
+}
+.red{
+    margin-top: 0%;
+    padding-left: 10%;
+    padding-left: 10%;
+}
+img{
+    padding-left: 2%;
+    border-radius: 10%;
 }
