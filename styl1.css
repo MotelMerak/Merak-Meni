@@ -306,7 +306,7 @@ div.kocka{
     scroll-snap-align: start;
     animation: glow 2s infinite alternate;
 
-    box-shadow: 0 0 22px rgba(150, 28, 95, 0.3);
+    box-shadow: 0 0 30px rgba(105, 105, 105, 1.3);
 }
 .kocka:hover {
     border-color: #424242;
