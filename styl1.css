@@ -27,10 +27,13 @@ body{
     color: white;
     border: 1px solid #444;
     border-radius: 10px;
-    padding:10px 16px;
+     padding:9px 23px;
     font-size: 36px;
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 3.8%;
+    box-shadow: 0 0 12px rgba(113, 127, 145, 0.3);
+    background:rgba(255,255,255,.08);
 }
 .back:hover{
     background: #333;
@@ -41,7 +44,7 @@ body{
 
     
     background: #1f1e1d;
-    height: 75px;
+    height: 85px;
     display: flex;
     align-items: center;
     padding-left: 100px;
@@ -227,6 +230,16 @@ html{
     font-weight:bold;
     
 }
+#home1{
+    width:50px;
+    border-radius: 0%;
+    border-color: none;
+    padding-right: 0%;
+    padding-left: 0%;
+    margin-left: 2%;
+    background-color: transparent;
+    box-shadow:0 0 0px rgba(0,0,0,.5);
+}
 img{
     width:400px;
     max-width:100%;
@@ -284,13 +297,14 @@ a:hover{
     border-radius: 0%;
 }
 span{
-    display:inline-block;
-    padding:15px 35px;
+   display:inline-block;
+    padding:10px 27px;
     background:rgba(255,255,255,.08);
     border:0.01mm solid rgb(92, 88, 88);
     border-radius:15px;
-    text-shadow: 5px 5px 5px black;  
+    text-shadow: 5px 5px 5px black;
     box-shadow: 0 0 12px rgba(113, 127, 145, 0.3);
+    margin-top: 4%;
 }
 hr{
     width: 100%;
