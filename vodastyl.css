@@ -41,9 +41,10 @@ h3{
 #zacena{
     border: none;
     box-shadow: none;
-    font-size:65%;
+    font-size:85%;
     outline: none;
     background: transparent;
+    font-weight:bold;
     color:rgb(126, 31, 75);
     
 }
