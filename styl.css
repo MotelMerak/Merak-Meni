@@ -20,6 +20,118 @@ body{
     overflow-y: auto;
      -webkit-overflow-scrolling: touch;
 }
+
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --text: #171717;
+  --card: #f1f1f5;
+  --border: #dddddd;
+  --accent: #6655ee;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #101014;
+  --text: #ffffff;
+  --card: #202027;
+  --border: #383840;
+  --accent: #9285ff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background .3s ease, color .3s ease;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 30px;
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.theme-toggle:hover {
+  background: var(--accent);
+  color: white;
+  transform: scale(1.05);
+}
+
+#themeIcon {
+  font-size: 20px;
+}
+
+/* LIGHT MODE - твојата црвено-црна тема */
+:root {
+    color-scheme: dark;
+
+    --bg: #160909;
+    --text: #f5f5f7;
+    --card: #241014;
+    --border: #351014;
+    --accent: #a83242;
+
+    background-color: #160909;
+}
+
+/* DARK MODE - класична темна тема */
+[data-theme="dark"] {
+    color-scheme: dark;
+
+    --bg: #0b0b0e;
+    --text: #f5f5f7;
+    --card: #18181d;
+    --border: #303038;
+    --accent: #9285ff;
+}
+
+/* BODY */
+body {
+    background: var(--bg);
+    color: var(--text);
+
+    background-image:
+        radial-gradient(
+            ellipse at top left,
+            var(--border) 0%,
+            transparent 40%
+        ),
+        radial-gradient(
+            ellipse at bottom right,
+            var(--card) 0%,
+            transparent 40%
+        );
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    transition:
+        background-color .3s ease,
+        color .3s ease;
+}
+
+
 .back{
     background: transparent;
     color: white;
@@ -55,14 +167,17 @@ body{
     word-spacing: auto; 
     position: sticky;
     border-radius: 17px;
+    color: black;
 
    
 }
 #nav-links{
     color: none;
 }
-.navbar{
-    color: black;
+#mode{
+    margin-left: 62%;
+    margin-right: 0%;
+    margin-bottom: 0%;
     
 }
 span{
@@ -74,6 +189,7 @@ span{
     text-shadow: 5px 5px 5px black;
     box-shadow: 0 0 12px rgba(113, 127, 145, 0.3);
     margin-top: 4%;
+
     
     
 }
@@ -91,10 +207,6 @@ h1{
     margin-top:40px;
     margin-bottom:30px;
     letter-spacing:3px;
-    
-    
-    
-    
 }
 
 ul{ 
